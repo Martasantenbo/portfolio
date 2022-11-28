@@ -6,21 +6,13 @@ const { isDarkMode, toggleDarkMode } = useDarkMode()
   <nav
     class="flex items-center gap-18 justify-end pr-30 font-text text-primary min-h-20 fixed bg-white min-w-full shadow z-10"
     :style="isDarkMode ? { backgroundColor: '#242424', color: 'white' } : null">
-    <a href="#home" class="text-24px group">home
-      <span class="block max-w-0 group-hover:(max-w-full transition-all duration-500 h-0.5)"
-        :style="isDarkMode ? { backgroundColor: 'white' } : { backgroundColor: '#242424' }"></span>
+    <a href="#home" class="text-24px hover:opacity-50 duration-500">home
     </a>
-    <a href="#skills" class="text-24px group">skills
-      <span class="block max-w-0 group-hover:(max-w-full transition-all duration-500 h-0.5)"
-        :style="isDarkMode ? { backgroundColor: 'white' } : { backgroundColor: '#242424' }"></span>
+    <a href="#skills" class="text-24px hover:opacity-50 duration-500">skills
     </a>
-    <a href="#projects" class="text-24px group">projects
-      <span class="block max-w-0 group-hover:(max-w-full transition-all duration-500 h-0.5)"
-        :style="isDarkMode ? { backgroundColor: 'white' } : { backgroundColor: '#242424' }"></span>
+    <a href="#projects" class="text-24px hover:opacity-50 duration-500">projects
     </a>
-    <a href="#about" class="text-24px group">about me
-      <span class="block max-w-0 group-hover:(max-w-full transition-all duration-500 h-0.5)"
-        :style="isDarkMode ? { backgroundColor: 'white' } : { backgroundColor: '#242424' }"></span>
+    <a href="#about" class="text-24px hover:opacity-50 duration-500">about me
     </a>
     <div @click="toggleDarkMode" class="text-24px flex gap-4 items-center cursor-pointer">colour mode
       <div :style="isDarkMode ? { backgroundColor: 'white' } : { backgroundColor: '#242424' }"

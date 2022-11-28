@@ -20,7 +20,7 @@ const { isDarkMode } = useDarkMode()
           </p>
         </div>
         <div class="flex gap-2">
-          <div v-for="item in links" :key="item.image" class="transform duration-400 hover:(scale-120)">
+          <div v-for="item in links" :key="item.image" class="transform duration-400 hover:(scale-115)">
             <a :href="item.link" target="blank">
               <img :src="item.image" />
             </a>
@@ -39,7 +39,7 @@ const { isDarkMode } = useDarkMode()
               </p>
             </div>
             <div class="flex gap-2 my-8">
-              <div v-for="item in skills" class="transform duration-400 hover:(scale-120)">
+              <div v-for="item in skills" class="transform duration-400 hover:(scale-115)">
                 <a :href="item.link" target="blank">
                   <img :src="item.image" />
                 </a>
