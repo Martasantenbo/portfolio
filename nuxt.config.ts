@@ -3,5 +3,6 @@ export default defineNuxtConfig({
   buildModules: [
     'nuxt-windicss',
     'nuxt-svgo',
+    '@nuxtjs/color-mode'
   ],
 })
