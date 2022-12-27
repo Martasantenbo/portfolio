@@ -8,13 +8,10 @@ defineProps<{
   image?: string
 }>()
 
-const { isDarkMode } = useDarkMode()
-
 </script>
 <template>
   <div
-    class="transform duration-300 hover:(scale-105) min-h-130 min-w-130 shadow bg-white flex flex-col gap-2.5 p-6 items-center justify-between rounded-2xl"
-    :style="isDarkMode ? { backgroundColor: '#242424', color: 'white' } : null">
+    class="transform duration-300 hover:(scale-105) min-h-130 min-w-130 shadow bg-white flex flex-col gap-2.5 p-6 items-center justify-between rounded-2xl">
     <div>
       <h2 class="text-36px">{{ header }}</h2>
       <p class="text-20px text-primary pt-2.5 uppercase">{{ text }}</p>
