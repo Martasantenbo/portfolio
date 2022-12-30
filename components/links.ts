@@ -1,10 +1,10 @@
 export const links = [
   {
-    link: 'https://github.com/Martasantenbo',
+    link: 'https://github.com/cernochmartin',
     image: 'assets/images/GitHubIcon.png'
   },
   {
-    link: 'https://www.linkedin.com/in/martin-%C4%8Dernoch-47880523b/',
+    link: 'https://www.linkedin.com/in/cernochmartin',
     image: 'assets/images/LinkedInIcon.png'
   },
   {

@@ -20,14 +20,14 @@ defineProps<{
       <img :src="image" />
     </div>
     <div class="flex gap-13 justify-center">
-      <a :href="buttonOne"
-        class="transform duration-500 hover:(scale-115 bg-blue-500) uppercase block font-text cursor-pointer text-20px min-w-50 min-h-15 bg-purple-600 text-white flex items-center justify-center growTransitionTwo rounded-2xl">
+      <NuxtLink :to="buttonOne" target="_blank"
+        class="transform duration-500 hover:(scale-115 !bg-blue-500) uppercase block font-text cursor-pointer text-20px min-w-50 min-h-15 !bg-purple-600 text-white flex items-center justify-center growTransitionTwo rounded-2xl">
         Source Code
-      </a>
-      <a :href="buttonTwo"
-        class="transform duration-500 hover:(scale-115 bg-blue-500) uppercase block font-text cursor-pointer text-20px min-w-50 min-h-15 bg-purple-600 text-white flex items-center justify-center growTransitionTwo rounded-2xl">
+      </NuxtLink>
+      <NuxtLink :to="buttonTwo" target="_blank"
+        class="transform duration-500 hover:(scale-115 !bg-blue-500) uppercase block font-text cursor-pointer text-20px min-w-50 min-h-15 !bg-purple-600 text-white flex items-center justify-center growTransitionTwo rounded-2xl">
         Website
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>

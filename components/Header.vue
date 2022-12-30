@@ -2,16 +2,15 @@
 const colorMode = useColorMode()
 
 </script>
-
 <template>
   <nav class="flex items-center gap-18 justify-end pr-30 font-text min-h-20 fixed min-w-full shadow z-10">
-    <a href="#home" class="text-24px duration-500 hover:opacity-50">home
+    <a href="#home" class="text-24px hover:(opacity-50 duration-500)">home
     </a>
-    <a href="#skills" class="text-24px duration-500 hover:opacity-60">skills
+    <a href="#skills" class="text-24px hover:(opacity-50 duration-500)">skills
     </a>
-    <a href="#projects" class="text-24px duration-500 hover:opacity-60">projects
+    <a href="#projects" class="text-24px hover:(opacity-50 duration-500)">projects
     </a>
-    <a href="#about" class="text-24px duration-500 hover:opacity-60">about me
+    <a href="#about" class="text-24px hover:(opacity-50 duration-500)">about me
     </a>
     <select v-model="$colorMode.preference">
       <option value="system">System</option>
@@ -25,17 +24,17 @@ const colorMode = useColorMode()
   </nav>
 </template>
 <style>
-nav {
+* {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8);
 }
 
-.dark-mode nav {
+.dark-mode * {
   background-color: #091a28;
   color: #fff;
 }
 
-.coffee-mode nav {
+.coffee-mode * {
   background-color: #f1e7d0;
   color: #433422;
 }

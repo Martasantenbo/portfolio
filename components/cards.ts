@@ -3,14 +3,14 @@ export const cards = [
     header: 'Martasan',
     text: 'My portfolio website',
     image: '../assets/images/Programming.png',
-    buttonOne: 'https://github.com/Martasantenbo/portfolio',
+    buttonOne: 'https://github.com/cernochmartin/portfolio',
     // buttonTwo: 
   },
   {
-    header: 'Art By Alex',
+    header: 'Art by Alex',
     text: 'Website for artist Alex',
     image: '../assets/images/Alex.png',
-    buttonOne: 'https://github.com/Martasantenbo/art-by-alex',
+    buttonOne: 'https://github.com/cernochmartin/art-by-alex',
     buttonTwo: 'https://artbyalex.cz/#/'
   },
   {
