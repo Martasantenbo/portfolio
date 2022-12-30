@@ -10,8 +10,9 @@ const colorMode = useColorMode()
 </script>
 <template>
   <div class="font-text">
-    <article class="min-h-screen gap-5 flex flex-col items-center justify-center" id="home">
-      <h1 class="text-48px">Hello, my name is Martin Černoch</h1>
+    <header class="min-h-screen gap-5 flex flex-col items-center justify-center" id="home">
+      <h1 class="text-48px">Hello, my name is <span class="!text-blue-500 font-semibold">Martin
+          Černoch</span></h1>
       <div>
         <p class="leading-8 text-32px text-center">
           A passionate Front End developer using
@@ -25,15 +26,15 @@ const colorMode = useColorMode()
           </NuxtLink>
         </div>
       </div>
-    </article>
+    </header>
     <section name="container" class="px-10">
       <article class="flex items-center max-w-320 mx-auto min-h-screen" id="skills">
         <div class="w-1/3">
           <h2 class="text-32px">What are my skills?</h2>
           <div class="mt-4">
-            <p class="text-24px leading-8"> I love developing and learning Front End development using
+            <p class="text-24px leading-8"> I love developing and learning web applications using
               Vue.js, Nuxt.js and WindiCSS, also knowing
-              a little bit of Back End with the use of Python.
+              a little bit of Python and its library PyScript.
             </p>
           </div>
           <div class="flex gap-2 my-8">
@@ -78,14 +79,13 @@ const colorMode = useColorMode()
             <p class="text-24px leading-8 mt-4">
               I'm a high school IT student and Microsoft Student Trainee Center student working @ Srovnejto as a Junior
               Front End developer. I've previously worked @ Cloud4com as a Software tester, testing and documenting a
-              cloud environment. Having the biggest interest in Front End development and Cloud development. My main
-              skills are building websites using JavaScript frameworks Vue.js and Nuxt.js with the CSS framework
-              WindiCSS.
+              cloud environment. My biggest interests are in Front End development and Cloud development. My main skills
+              lie in building websites using JavaScript frameworks Vue.js and Nuxt.js with the CSS framework WindiCSS.
               <span class="pt-6 block">I'd love to learn more about Cloud in the future, mostly
                 with the use of Microsoft Azure.
               </span>
             </p>
-            <NuxtLink to="mailto:martas.cernoch@gmail.com?subject=Contact via Website" class="transform duration-500 hover:(scale-115 !bg-blue-500) cursor-pointer text-20px w-50 h-15 text-center !bg-purple-600 text-white pt-4.5
+            <NuxtLink to="mailto:martas.cernoch@gmail.com?subject=Contact via Website" class="transform duration-500 hover:(scale-115 !bg-blue-500) cursor-pointer text-20px w-50 h-15 text-center !bg-purple-600 !text-white pt-4.5
               rounded-2xl">
               CONTACT ME
             </NuxtLink>
